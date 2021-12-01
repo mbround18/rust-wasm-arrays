@@ -12,6 +12,17 @@ module.exports = {
         // This allows WebAssembly to be bundled
         asyncWebAssembly: true
     },
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            }
+        ],
+    },
     // Its good practice to specify the mode
     // But this can also be done via `--mode`
     mode: process.env.NODE_ENV || "development",
@@ -35,12 +46,12 @@ module.exports = {
         new HtmlWebpackPlugin({
             meta: {viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no'},
             // This will be used later
-            templateContent: "<div id='app'></div>",
+            template: "./src/index.html",
             inject: "body"
         })
     ],
     devServer: {
-        hot: 'only',
+        hot: true,
     },
     resolve: {
         // A little overkill for our tutorial but useful.

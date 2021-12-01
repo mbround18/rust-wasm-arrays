@@ -1,8 +1,7 @@
-use wasm_bindgen::prelude::*;
+// Declare the two files for pet and pets
+mod pets;
+mod pet;
 
-// The main function which will be referenced in JavaScript
-#[wasm_bindgen]
-pub fn main() -> String {
-    // Returning a string to use in JavaScript land.
-    String::from("Hello, world!")
-}
+// Not needed for most cases but re-exporting these at top level. 
+pub use pets::Pets;
+pub use pet::Pet;

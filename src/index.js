@@ -1,3 +1,4 @@
+import './index.css';
 /**
  * When importing a Rust WebAssembly crate,
  * you must always add a /pkg to the import like below.
@@ -6,10 +7,9 @@
  */
 import * as helloWorld from '../hello-world/pkg'
 
+const list = document.getElementById('list');
+const pets = new helloWorld.Pets();
 
-document.getElementById("app").innerText =
-    /**
-     * Now we can simply call the function `main` from our Rust package :)
-     */
-    helloWorld.main();
+console.log(pets.list);
+
 
