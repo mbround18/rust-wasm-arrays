@@ -963,7 +963,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-loader@npm:^6.5.1":
+"css-loader@npm:6.5.1":
   version: 6.5.1
   resolution: "css-loader@npm:6.5.1"
   dependencies:
@@ -1771,7 +1771,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:^5.5.0":
+"html-webpack-plugin@npm:5.5.0":
   version: 5.5.0
   resolution: "html-webpack-plugin@npm:5.5.0"
   dependencies:
@@ -3250,12 +3250,12 @@ __metadata:
   resolution: "rust-wasm-arrays@workspace:."
   dependencies:
     "@wasm-tool/wasm-pack-plugin": 1.6.0
-    css-loader: ^6.5.1
-    html-webpack-plugin: ^5.5.0
-    style-loader: ^3.3.1
-    webpack: ^5.64.4
-    webpack-cli: ^4.9.1
-    webpack-dev-server: ^4.6.0
+    css-loader: 6.5.1
+    html-webpack-plugin: 5.5.0
+    style-loader: 3.3.1
+    webpack: 5.64.4
+    webpack-cli: 4.9.1
+    webpack-dev-server: 4.6.0
   languageName: unknown
   linkType: soft
 
@@ -3634,7 +3634,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-loader@npm:^3.3.1":
+"style-loader@npm:3.3.1":
   version: 3.3.1
   resolution: "style-loader@npm:3.3.1"
   peerDependencies:
@@ -3867,7 +3867,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-cli@npm:^4.9.1":
+"webpack-cli@npm:4.9.1":
   version: 4.9.1
   resolution: "webpack-cli@npm:4.9.1"
   dependencies:
@@ -3915,7 +3915,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:^4.6.0":
+"webpack-dev-server@npm:4.6.0":
   version: 4.6.0
   resolution: "webpack-dev-server@npm:4.6.0"
   dependencies:
@@ -3972,7 +3972,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.64.4":
+"webpack@npm:5.64.4":
   version: 5.64.4
   resolution: "webpack@npm:5.64.4"
   dependencies:
