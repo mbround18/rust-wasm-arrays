@@ -16,6 +16,6 @@ wasm-bindgen = { version = "0", features = ["serde-serialize"] }
 # This dependency is required to build the wasm module
 js-sys = "0"
 # Used to serialize objects to JSON
-serde = { version = "1", features = ["derive"] }
+serde = { version = "1.0.199", features = ["derive"] }
 # Used to serialize objects from JSON
 serde_json = "1"
