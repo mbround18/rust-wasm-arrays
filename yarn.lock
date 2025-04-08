@@ -3349,7 +3349,7 @@ __metadata:
     css-loader: 7.1.2
     html-webpack-plugin: 5.6.3
     style-loader: 4.0.0
-    webpack: 5.99.1
+    webpack: 5.99.2
     webpack-cli: 6.0.1
     webpack-dev-server: 5.2.1
   languageName: unknown
@@ -4151,9 +4151,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.99.1":
-  version: 5.99.1
-  resolution: "webpack@npm:5.99.1"
+"webpack@npm:5.99.2":
+  version: 5.99.2
+  resolution: "webpack@npm:5.99.2"
   dependencies:
     "@types/eslint-scope": ^3.7.7
     "@types/estree": ^1.0.6
@@ -4183,7 +4183,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 69f02093ce21becc9c3b37f6fab554e7fed9137f6cbb589615377fd6ddcfd435022911d07785f6ec7cf16739294c9d0ceb5e689ac6c8d9cf5be24f23cafd607d
+  checksum: 1b2e618cf09352e388dd92cc20f0d2dc7ae4d28af2bac07765e41117c4e73378dcf34b991eb10f9bec48ad8530fe64bc0cad04ce33174a33585e557e0b343d12
   languageName: node
   linkType: hard
 
