@@ -2867,7 +2867,7 @@ __metadata:
     html-webpack-plugin: 5.6.8
     style-loader: 4.0.0
     webpack: 5.110.1
-    webpack-cli: 7.2.2
+    webpack-cli: 7.2.3
     webpack-dev-server: 6.0.0
   languageName: unknown
   linkType: soft
@@ -3348,9 +3348,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-cli@npm:7.2.2":
-  version: 7.2.2
-  resolution: "webpack-cli@npm:7.2.2"
+"webpack-cli@npm:7.2.3":
+  version: 7.2.3
+  resolution: "webpack-cli@npm:7.2.3"
   dependencies:
     "@discoveryjs/json-ext": ^1.1.0
     commander: ^14.0.3
@@ -3363,7 +3363,7 @@ __metadata:
   peerDependencies:
     js-yaml: ^4.0.0 || ^5.0.0
     json5: ^2.2.3
-    toml: ^3.0.0 || ^4.0.0
+    toml: ^3.0.0 || ^4.0.0 || ^5.0.0
     webpack: ^5.101.0
     webpack-bundle-analyzer: ^4.0.0 || ^5.0.0
     webpack-dev-server: ^5.0.0 || ^6.0.0
@@ -3380,7 +3380,7 @@ __metadata:
       optional: true
   bin:
     webpack-cli: bin/cli.js
-  checksum: 6c48c3c5827cf9e375edb531311b71128344abf810139af70a34dfc85ac274baa1147aa692f01a42b3d5b3e0ca24f99e778a9b8fbfd73fe523d37413b403f0d9
+  checksum: 347dff27ac054603c17601fe78bdca9e4a9dbf6578411f8d283aaa88dbdb98c5744523b55d40c482fbbdc050a961e914a7cd8ecc0121592a969bd2caf3dcf3b4
   languageName: node
   linkType: hard
 
