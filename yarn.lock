@@ -2883,7 +2883,7 @@ __metadata:
     css-loader: 7.1.5
     html-webpack-plugin: 5.6.8
     style-loader: 4.0.0
-    webpack: 5.111.0
+    webpack: 5.111.1
     webpack-cli: 7.2.3
     webpack-dev-server: 6.0.0
   languageName: unknown
@@ -3491,9 +3491,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.111.0":
-  version: 5.111.0
-  resolution: "webpack@npm:5.111.0"
+"webpack@npm:5.111.1":
+  version: 5.111.1
+  resolution: "webpack@npm:5.111.1"
   dependencies:
     "@types/estree": ^1.0.8
     "@types/json-schema": ^7.0.15
@@ -3517,7 +3517,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: c900db84acd71dc0fd0a7e3c93484ff4faca775b46f94c90b470f9f6bfc0799566eb08c53eb43b8390c524dd167550086c2abb2da1336317ede4b50b7ebc9591
+  checksum: de2eb36c0b29b131bb660ba29a5eb9ddefda1329927e3d4d461497890646e286fa63572acbddc3db138d499d7dc7a8ecf4341b60b9b4ff2609aba3c1ee4299b2
   languageName: node
   linkType: hard
 
